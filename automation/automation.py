@@ -59,7 +59,7 @@ def email_file(emails):
 
 def phone_number_file(phone_numbers):
     
-    with open('./assets/phone-numbers.txt', 'w') as phone_numbers_file:
+    with open('./assets/phone_numbers.txt', 'w') as phone_numbers_file:
         for phone_number in phone_numbers:
             phone_numbers_file.write(f'{phone_number}\n')
 
