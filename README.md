@@ -1,8 +1,8 @@
 
 # Automation
 
-[Link to Latest PR](https://github.com/ticochuck/automation/pull/1)
-
+[Link to Latest PR](https://github.com/ticochuck/automation/pull/2)
+                   
 ## Description
 - Devise a method to encrypt a message that can then be decrypted when supplied with the corresponding key.
 
@@ -25,10 +25,20 @@
 
 ## References
 
-[]()
+[MadLib](https://github.com/ticochuck/madlib-cli/blob/master/madlib_cli/madlib.py)
 
-[]()
 
+[Email Regex](https://www.geeksforgeeks.org/extracting-email-addresses-using-regular-expressions-python/)
+
+
+[Phone Number Regex](https://stackoverflow.com/questions/3868753/find-phone-numbers-in-python-script)
+
+    (\d{3}[-\.\s]??\d{3}[-\.\s]??\d{4}|\(\d{3}\)\s*\d{3}[-\.\s]??\d{4}|\d{3}[-\.\s]??\d{4})
+
+[Phone Number Formatter](https://stackoverflow.com/questions/7058120/whats-the-best-way-to-format-a-phone-number-in-python)
+
+    clean_phone_number = re.sub('[^0-9]+', '', phone_number)
+    formatted_phone_number = re.sub("(\d)(?=(\d{3})+(?!\d))", r"\1-", "%d" % int(clean_phone_number[:-1])) + clean_phone_number[-1]
 
 ## Lab19 - Automation
 
