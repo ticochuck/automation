@@ -1,0 +1,12 @@
+
+File does not exits error: 
+[Errno 2] No such file or directory: './assets/potential-contactss.txt'
+2020-08-01 15:26:37.757657
+
+File does not exits error: 
+[Errno 2] No such file or directory: './assets/potential-contactssa.txt'
+2020-08-01 15:26:58.150084
+
+File does not exits error: 
+[Errno 2] No such file or directory: './assets/potentialcontacts.txt'
+2021-07-04 10:13:51.557652
