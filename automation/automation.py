@@ -72,7 +72,7 @@ def main():
 
     """
     path = './assets/'
-    file_name = 'potentialcontacts.txt'
+    file_name = 'potential-contacts.txt'
     open_file(path, file_name)
 
 
